@@ -1,0 +1,151 @@
+---------------------------------------
+INDEX REBUILD BLOCK (MASTER VERSION)
+---------------------------------------
+
+Version: 1.0  
+Purpose: Rebuild the entire Index if deleted.  
+Scope: Contains full system architecture, commands, rules, and structure.  
+Excludes: Persona text (stored in separate persona blocks).
+
+=======================================
+0.0 PURPOSE OF THE INDEX
+=======================================
+The Index is the authoritative control center for:
+- Persona library
+- System architecture
+- Commands
+- Thread lifecycle rules
+- Versioning
+- Rebuild instructions
+
+It ensures modularity, portability, and clean context across all devices and locations.
+
+=======================================
+1.0 SYSTEM ARCHITECTURE
+=======================================
+The system is built on four pillars:
+
+1. PERSONAS  
+   - Stored separately in dedicated blocks  
+   - Recalled on demand  
+   - Never embedded directly in the Index  
+
+2. COMMANDS  
+   - Universal, persona‑agnostic  
+   - Short, verb‑driven  
+   - Used to control context, navigation, and output  
+
+3. THREAD LIFECYCLE  
+   - Rules for starting, maintaining, and closing threads  
+   - Ensures clean context and prevents drift  
+
+4. VERSIONING  
+   - Every persona and system component has a version  
+   - Updates are modular and isolated  
+
+=======================================
+1.1 PERSONA REFERENCES
+=======================================
+Personas are NOT stored inside the Index.  
+They are referenced here and stored in separate blocks.
+
+Current personas:
+
+- VBA Persona V2  
+  (See separate VBA Persona Block)
+
+- VHA Persona V4  
+  (See separate VHA Persona Block)
+
+Future persona slots (placeholders):
+- Finance Persona  
+- Property / Snowbird Logistics Persona  
+- Woodworking Persona  
+- Smart Home / NUC Persona  
+- Outlook / Alias Architecture Persona  
+- Government Navigator Persona  
+- AI Prompt Engineer Persona  
+
+=======================================
+2.0 NAMING CONVENTIONS
+=======================================
+- Personas use: [Name] Persona V[number]  
+- Index uses: Index Rebuild Block (Master Version)  
+- Commands use: Verb + Object (e.g., “Recall Persona”)  
+- Threads use: [Persona] — [Topic]  
+
+=======================================
+3.0 VERSIONING RULES
+=======================================
+- Each persona evolves independently.  
+- Index version changes only when architecture changes.  
+- Persona updates do NOT require Index updates.  
+- Version numbers increase only on meaningful changes.  
+
+=======================================
+4.0 COMMANDS
+=======================================
+
+4.1 PERSONA COMMANDS
+- Recall Persona  
+- Reset Context  
+- Start Fresh  
+- Switch Persona  
+
+4.2 NAVIGATION COMMANDS
+- Summarize Thread  
+- Extract Decisions  
+- List Open Questions  
+- Identify Next Steps  
+
+4.3 UTILITY COMMANDS
+- Convert to Checklist  
+- Turn into Scenario Table  
+- Give Short Version  
+- Expand This  
+- Provide Alternatives  
+- Risk Grade This  
+- Build a Decision Tree  
+
+=======================================
+5.0 THREAD LIFECYCLE RULES
+=======================================
+
+5.1 STARTING A NEW THREAD
+- Paste the persona block  
+- Hit Enter  
+- Persona activates cleanly  
+- Begin in Strategic Mode (if applicable)  
+
+5.2 MAINTAINING A THREAD
+- Use commands to control context  
+- Avoid mixing personas  
+- Keep topics compartmentalized  
+
+5.3 CLOSING A THREAD
+- Summarize Thread  
+- Extract Decisions  
+- Identify Next Steps  
+- Start Fresh if continuing  
+
+=======================================
+6.0 REBUILD INSTRUCTIONS
+=======================================
+If the Index is deleted:
+
+1. Paste this Index Rebuild Block into a new conversation.  
+2. Paste the VBA Persona Block.  
+3. Paste the VHA Persona Block.  
+4. Add any future persona blocks as needed.  
+5. The system is fully restored.
+
+=======================================
+7.0 NOTES
+=======================================
+- This Index contains no persona text to ensure modularity.  
+- Persona blocks are authoritative and stored separately.  
+- This block is designed for long‑term durability and portability.
+
+---------------------------------------
+END OF INDEX REBUILD BLOCK
+---------------------------------------
